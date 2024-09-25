@@ -65,7 +65,7 @@ const Hero = () => {
         </p>
         <button onClick={scrollToSection} className="bg-gradient-to-r from-[#005AB3] via-gray-900 to-black hover:bg-gradient-to-l text-white font-semibold py-3 px-8 rounded-xl transition duration-300 border-[1px] border-gray-800" data-aos="flip-left" data-aos-delay="300">
           <div className='flex items-center gap-3 font-bold text-xl text-white hover:text-black'>
-            <span className='text-lg md:text-2xl text-white'>Comming Soon</span><span className='text-2xl animate-bounce'><FaRegArrowAltCircleDown /></span>
+            <span className='text-lg md:text-2xl text-white'>Coming Soon</span><span className='text-2xl animate-bounce'><FaRegArrowAltCircleDown /></span>
           </div>
         </button>
       </div>
