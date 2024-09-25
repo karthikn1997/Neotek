@@ -44,7 +44,7 @@ function Controls() {
             </a>
 
             {/* Mobile View */}
-            <a href="tel:+919597003413">
+            <a href="tel:+919514088115">
                 <button className="bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-full shadow-md transform transition-all duration-500 hover:scale-110">
                     <FaPhoneAlt className="text-white" size={24} />
                 </button>
