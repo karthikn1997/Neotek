@@ -25,9 +25,9 @@ function Footer() {
           }}
         >
             <div className="bg-black bg-opacity-60 py-8 md:py-12 border-t-4 border-blue-500">
-                <div className="w-full mx-auto flex flex-col justify-center items-center px-4 text-sm sm:text-[16px]">
+                <div className="w-full mx-auto flex flex-col justify-center items-center px-6 text-sm sm:text-[16px]">
                     {/* Clinic Overview */}
-                    <div className="flex flex-col items-center mb-6" data-aos="fade-right">
+                    <div className="w-full flex flex-col items-center mb-6" data-aos="fade-right">
                         <h1 className="text-2xl md:text-4xl font-semibold font-nunito mb-2 text-blue-500 uppercase">
                             Neotek Sorting
                         </h1>
@@ -38,7 +38,7 @@ function Footer() {
 
                     {/* Grid for 4 Columns */}
                     <div
-                        className="w-full grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6 sm:gap-8 place-items-center"
+                        className="w-full grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 gap-6 sm:gap-8 sm:place-items-center "
                         data-aos="fade-up"
                     >
                         {/* Quick Links with Icons */}
@@ -126,13 +126,24 @@ function Footer() {
                                         Hardware
                                     </Link>
                                 </li>
+
+                                <li className="flex items-center space-x-2">
+                                    <LuDiamond className="text-blue-400" />
+                                    <Link
+                                        to="/services/hair-treatment/nonclinical"
+                                        onClick={scrollToTop}
+                                        className="hover:underline hover:text-blue-300"
+                                    >
+                                        Expert Services
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
 
                         {/* Address and Timing */}
-                        <div className="flex flex-col " data-aos="fade-right ">
+                        <div className="flex flex-col col-span-2 xs:col-span-1 justify-center items-center xs:justify-start xs:items-start" data-aos="fade-right ">
                             <h2 className="text-lg font-semibold float-left mb-4 text-blue-500">Address & Timing</h2>
-                            <address className="not-italic mb-2 text-left px-1">
+                            <address className="not-italic mb-2 text-center xs:text-left">
                             4/79, Karadiyanur,<br />
                             Rasipuram, Thengalpalayam,<br />
                             Namakkal, Tamilnadu,<br />
@@ -148,7 +159,7 @@ function Footer() {
                     </div>
 
                     {/* Copyright Section */}
-                    <div className="text-center mt-8" data-aos="fade-up">
+                    <div className="text-center mt-8" >
                         <p className='text-xs sm:text-sm'>
                             <span className="text-yellow-400">&copy; {new Date().getFullYear()} </span>
                             Neotek Sorting Solutions. All rights reserved.

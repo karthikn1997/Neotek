@@ -11,14 +11,14 @@ const Navbar = () => {
 
     return (
         <nav className="nav bg-white z-10 top-0 border-b-2 border-gray-700">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto px-8">
                 <div className="flex items-center justify-between sm:py-3 py-2">
                     <div className="flex items-center justify-between w-full">
                         <div className="flex-shrink-0 text-white">
                             <img
                                 src={logo}
                                 alt="Logo"
-                                className="w-[80px] sm:w-[100px] lg:w-[130px]"
+                                className="w-[90px] lg:w-[130px]"
                             />
                         </div>
                         <div className="hidden md:block font-semibold">

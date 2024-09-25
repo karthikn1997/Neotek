@@ -36,13 +36,13 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative mt-20 h-screen w-full flex items-center justify-center hero-section">
+    <section className="relative min-h-[70vh] w-full flex items-center justify-center hero-section">
 
       <div className="absolute inset-0 mx-auto bg-cover bg-center animate-bg-image" 
       style={{ backgroundImage: `url(${HeroBg})`, backgroundSize: "contain"}} 
       ></div>
 
-      <div className="relative z-10 text-center p-5 w-full -mt-[200px]" >
+      <div className="relative z-10 text-center p-5 w-full " >
         <Slider {...settings}>
           <div>
             <h1 className="text-3xl md:text-5xl text-black font-bold mb-4" data-aos="slide-right" data-aos-delay="300">
