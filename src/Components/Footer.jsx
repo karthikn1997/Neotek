@@ -15,14 +15,14 @@ function Footer() {
     return (
         <footer
             className="bg-gray-600 text-white md:py-12 relative"
-          style={{
-            backgroundImage: `url(${ImageBG})`,
-            backgroundSize: 'cover',
-            backgroundBlendMode: 'overlay',
-            backgroundColor: 'rgba(0, 0, 0, 0.3)', // Black overlay with 50% opacity
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center',
-          }}
+            style={{
+                backgroundImage: `url(${ImageBG})`,
+                backgroundSize: 'cover',
+                backgroundBlendMode: 'overlay',
+                backgroundColor: 'rgba(0, 0, 0, 0.3)', // Black overlay with 50% opacity
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+            }}
         >
             <div className="bg-black bg-opacity-60 py-8 md:py-12 border-t-4 border-blue-500">
                 <div className="w-full mx-auto flex flex-col justify-center items-center px-6 text-sm sm:text-[16px]">
@@ -42,9 +42,10 @@ function Footer() {
                         data-aos="fade-up"
                     >
                         {/* Quick Links with Icons */}
-                        <div className="flex flex-col " data-aos="fade-right">
-                            <h2 className="text-lg font-semibold mb-4 text- text-blue-500">Quick Links</h2>
-                            <ul className="space-y-2">
+                        <div className=" justify-center items-center xs:justify-start xs:items-start" data-aos="fade-right">
+
+                            <ul className="space-y-2 flex flex-col">
+                                <h2 className="text-lg font-semibold mb-2 text-left text-blue-500">Quick Links</h2>
                                 <li className="flex items-center space-x-2">
                                     <FaHome className="text-blue-400" />
                                     <Link to="/" onClick={scrollToTop} className="hover:underline hover:text-blue-300">
@@ -79,10 +80,10 @@ function Footer() {
                         </div>
 
                         {/* Treatment Sections */}
-                        <div className="flex flex-col " data-aos="fade-right">
-                            <h2 className="text-lg font-semibold float-left mb-4 text-blue-500">Our Services</h2>
-                            <ul className="space-y-2">
+                        <div className="flex flex-col justify-center items-center xs:justify-start xs:items-start" data-aos="fade-right">
 
+                            <ul className="space-y-2 flex flex-col ">
+                                <h2 className="text-lg font-semibold float-left text-left mb-2 text-blue-500">Our Services</h2>
                                 <li className="flex items-center space-x-2">
                                     <LuDiamond className="text-blue-400" />
                                     <Link
@@ -90,7 +91,7 @@ function Footer() {
                                         onClick={scrollToTop}
                                         className="hover:underline hover:text-blue-300"
                                     >
-                                        Installation 
+                                        Installation
                                     </Link>
                                 </li>
 
@@ -101,7 +102,7 @@ function Footer() {
                                         onClick={scrollToTop}
                                         className="hover:underline hover:text-blue-300"
                                     >
-                                       Maintenance
+                                        Maintenance
                                     </Link>
                                 </li>
 
@@ -142,12 +143,12 @@ function Footer() {
 
                         {/* Address and Timing */}
                         <div className="flex flex-col col-span-2 xs:col-span-1 justify-center items-center xs:justify-start xs:items-start" data-aos="fade-right ">
-                            <h2 className="text-lg font-semibold float-left mb-4 text-blue-500">Address & Timing</h2>
+                            <h2 className="text-lg font-semibold float-left mb-2 text-blue-500">Address & Timing</h2>
                             <address className="not-italic mb-2 text-center xs:text-left">
-                            4/79, Karadiyanur,<br />
-                            Rasipuram, Thengalpalayam,<br />
-                            Namakkal, Tamilnadu,<br />
-                            Salem - 636301
+                                4/79, Karadiyanur,<br />
+                                Rasipuram, Thengalpalayam,<br />
+                                Namakkal, Tamilnadu,<br />
+                                Salem - 636301
                             </address>
                             <p className='text-sm '>
                                 <span className="text-blue-400">Mon-Fri:</span> <span className='text-sm'>9:00 AM - 6:00 PM</span>
