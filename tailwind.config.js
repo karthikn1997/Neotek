@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       screens: {
-        'xs': '480px', // Define 'xs' screen size for 480px width
+        'xs': '480px', 
+        'xxs': '375px'
       },
     },
   },
