@@ -145,10 +145,7 @@ function Footer() {
                         <div className="flex flex-col col-span-2 xs:col-span-1 justify-center items-center xs:justify-start xs:items-start" data-aos="fade-right ">
                             <h2 className="text-lg font-semibold float-left mb-2 text-blue-500">Address & Timing</h2>
                             <address className="not-italic mb-2 text-center xs:text-left">
-                                4/79, Karadiyanur,<br />
-                                Rasipuram, Thengalpalayam,<br />
-                                Namakkal, Tamilnadu,<br />
-                                Salem - 636301
+                                4/79, Karadiyanur, Rasipuram, Thengalpalayam, Namakkal, Tamilnadu, Salem - 636301 
                             </address>
                             <p className='text-sm '>
                                 <span className="text-blue-400">Mon-Fri:</span> <span className='text-sm'>9:00 AM - 6:00 PM</span>
