@@ -118,8 +118,8 @@ const Navbar = () => {
             </div>
 
             {isOpen && (
-                <div className="md:hidden bg-[rgba(0,0,0,0.2)] flex justify-center items-center">
-                    <div className="px-2 pt-2 pb-3 space-x-2 sm:space-x-8 sm:px-3 text-sm sm:text-[16px]">
+                <div className="md:hidden bg-gray-200 flex justify-center items-center">
+                    <div className="px-2 py-2 pb-4 space-x-2 sm:space-x-8 sm:px-3 text-sm sm:text-[16px] font-semibold">
                         <NavLink
                             to="/"
                             className={({ isActive }) =>
