@@ -7,7 +7,7 @@ import { FaSquarePhone } from "react-icons/fa6";
 const Topbar = () => {
     return (
         <>
-            <div className="hidden md:flex flex-col">
+            <div className="hidden lg:flex flex-col">
                 <div className="w-full bg-[#005AB3] text-white md:px-20 text-xs tracking-wider py-1">
                     <div className="flex flex-col md:flex-row items-center justify-between">
 
@@ -16,7 +16,7 @@ const Topbar = () => {
                             <div className="md:flex items-center gap-1 text-[rgb(255,181,36)]">
                                 <MdLocationPin className="text-[#FF7A01] w-4 h-4 rounded-full mt-1" />
                                 <a href="#" className="text-white">
-                                    123 Street, New York
+                                    4/79, Rasipuram, Namakkal, Salem - 636301
                                 </a>
                             </div>
                             <div className="flex items-center gap-1 hover:text-[rgb(255,181,36)]">
@@ -27,7 +27,7 @@ const Topbar = () => {
                             </div>
                             <div className="flex items-center gap-1 hover:text-[rgb(255,181,36)]">
                                 <FaSquarePhone className="text-[#FF7A01] w-4 h-4 rounded-full " />
-                                <p className="tracking-wider">9994442222</p>
+                                <p className="tracking-wider">9514088115</p>
                             </div>
                         </div>
 

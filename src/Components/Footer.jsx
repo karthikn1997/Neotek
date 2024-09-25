@@ -132,10 +132,11 @@ function Footer() {
                         {/* Address and Timing */}
                         <div className="flex flex-col " data-aos="fade-right ">
                             <h2 className="text-lg font-semibold float-left mb-4 text-blue-500">Address & Timing</h2>
-                            <address className="not-italic mb-2 text-left px-2">
-                                Near Palani GH<br />
-                                Palani<br />
-                                624601
+                            <address className="not-italic mb-2 text-left px-1">
+                            4/79, Karadiyanur,<br />
+                            Rasipuram, Thengalpalayam,<br />
+                            Namakkal, Tamilnadu,<br />
+                            Salem - 636301
                             </address>
                             <p className='text-sm '>
                                 <span className="text-blue-400">Mon-Fri:</span> <span className='text-sm'>9:00 AM - 6:00 PM</span>
