@@ -4,11 +4,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ClipLoader from 'react-spinners/ClipLoader';
 import { FaFacebook, FaWhatsapp, FaInstagram, FaLinkedin } from 'react-icons/fa'; // Import icons
-import ContactBg from "../assets/Contact.jpeg"
+import ContactBg from "../assets/contact.jpeg"
 import { LiaBattleNet } from "react-icons/lia";
-import ContactIcons from "../assets/contact-icons.png"
-import ContactLogo from "../assets/24x7.png"
-import { FaLocationDot } from "react-icons/fa6";
 import { FaHandshake } from "react-icons/fa";
 
 const Contact = () => {
