@@ -116,7 +116,7 @@
 }
 
 .gradient-text {
-  background: linear-gradient(to top, transparent, blue, transparent);
+  background: linear-gradient(to top, transparent, white, transparent);
   -webkit-background-clip: text;
   color: transparent;
 }
