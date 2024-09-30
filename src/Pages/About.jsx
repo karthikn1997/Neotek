@@ -47,14 +47,14 @@ const About = () => {
             {/* Main Image */}
             <img
               src={About1}
-              className='w-[90%] h-[90%] sm:w-[70%] sm:h-[70%] object-cover mx-auto border-4 border-white rounded-lg shadow-md mb-10 transition-transform duration-500 ease-in-out transform hover:scale-105'
+              className='w-[90%] h-[90%] sm:w-[70%] sm:h-[70%] object-cover mx-auto border-4 border-white rounded-lg shadow-md mb-10 '
               alt=""
             />
 
             {/* Corner Image - Overlapping by 50% */}
             <img
               src={About2}
-              className='w-[90%] h-[90%] sm:w-[50%] sm:h-[70%] absolute z-10 object-cover bottom-[-10%] sm:left-[-5%] left-[-20%] shadow-lg border-4 border-white rounded-lg transition-transform duration-500 ease-in-out transform hover:scale-110'
+              className='w-[90%] h-[90%] sm:w-[50%] sm:h-[70%] absolute z-10 object-cover bottom-[-10%] sm:left-[-5%] left-[-20%] shadow-lg border-4 border-white rounded-lg'
               alt=""
             />
           </div>
