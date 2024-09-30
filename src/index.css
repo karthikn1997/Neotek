@@ -98,9 +98,9 @@
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
-  width: 30%;
-  height: 3px; /* Adjust the height as needed */
-  background: linear-gradient(to right, transparent, #73D1FF, transparent); /* Adjust the gradient colors as needed */
+  width: 80%;
+  height: 1px; /* Adjust the height as needed */
+  background: linear-gradient(to right, transparent, orange, transparent); /* Adjust the gradient colors as needed */
 }
 
 @keyframes bounceMedium {
@@ -116,7 +116,7 @@
 }
 
 .gradient-text {
-  background: linear-gradient(to top, transparent, #73D1FF, transparent);
+  background: linear-gradient(to top, transparent, blue, transparent);
   -webkit-background-clip: text;
   color: transparent;
 }
