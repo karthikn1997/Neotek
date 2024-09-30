@@ -5,7 +5,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import ClipLoader from 'react-spinners/ClipLoader';
 import { FaFacebook, FaWhatsapp, FaInstagram, FaLinkedin } from 'react-icons/fa'; // Import icons
 import ContactBg from "../assets/contact.jpeg"
-import { LiaBattleNet } from "react-icons/lia";
 import { FaHandshake } from "react-icons/fa";
 
 const Contact = () => {
@@ -43,9 +42,9 @@ const Contact = () => {
   return (
     <>
       <div className='bg-white'>
-        <div className='relative w-full h-[30vh] md:h-[45vh]'>
+        <div className='relative w-full h-[20vh] md:h-[45vh]'>
           {/* Background image */}
-          <img src={ContactBg} className='w-full h-[30vh] md:h-[45vh] object-cover' alt="Contact Background" />
+          <img src={ContactBg} className='w-full h-[20vh] md:h-[45vh] object-cover' alt="Contact Background" />
 
           {/* Blue transparent overlay */}
           <div className='absolute top-0 left-0 w-full h-full bg-black bg-opacity-70 border-b-4 border-blue-500'></div>
@@ -53,7 +52,7 @@ const Contact = () => {
           {/* Centered text with inside border */}
           <div className='absolute top-0 left-0 w-full h-full flex justify-center items-center p-2 sm:p-4'>
             <div className='w-full h-full flex justify-center items-center border-2 border-blue-600 border-opacity-60 p-4 box-border gap-2 sm:gap-4'>
-              <LiaBattleNet className='text-yellow-600 w-10 h-10 sm:w-16 sm:h-16' />
+            
               <h1 className='text-blue-600 text-2xl sm:text-4xl lg:text-5xl font-bold uppercase tracking-widest pb-1 sm:pb-3 text-border-bottom'>Contact Us</h1>
             </div>
           </div>
