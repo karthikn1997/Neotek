@@ -8,9 +8,9 @@ import About2 from "../assets/about-2.jpeg"
 const About = () => {
   return (
     <>
-      <div className='relative w-full h-[30vh] md:h-[45vh]'>
+      <div className='relative w-full h-[20vh] md:h-[45vh]'>
         {/* Background image */}
-        <img src={AboutBg} className='w-full h-[30vh] md:h-[45vh] object-cover' alt="Contact Background" />
+        <img src={AboutBg} className='w-full h-[20vh] md:h-[45vh] object-cover' alt="Contact Background" />
 
         {/* Blue transparent overlay */}
         <div className='absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 border-b-4 border-blue-500'></div>
