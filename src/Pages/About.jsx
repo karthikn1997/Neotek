@@ -43,7 +43,7 @@ const About = () => {
         </div>
 
         <div className='w-full h-full lg:w-[50%] mt-10 lg:mt-0'>
-          <div className='relative ml-[60px] xxs:ml-[77px] xs:ml-[100px]'>
+          <div className='relative ml-[60px] xxs:ml-[80px] xs:ml-[100px]'>
             {/* Main Image */}
             <img
               src={About1}
