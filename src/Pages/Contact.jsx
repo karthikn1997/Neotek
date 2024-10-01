@@ -74,7 +74,7 @@ const Contact = () => {
           {/* Get in Touch Section */}
           <div className="w-full lg:w-[50%] text-center lg:text-left mx-auto mt-6 lg:mt-0">
             <div className='flex justify-center items-center lg:justify-start lg:items-start gap-4 mb-2 sm:mb-4'>
-              <h2 className="flex text-2xl sm:text-4xl font-semibold text-gray-800  text-border-bottom pb-1 sm:pb-2">Get in Touch </h2><FaHandshake className='w-8 h-8 sm:w-12 sm:h-12 text-yellow-600'/>
+              <h2 className="flex text-2xl sm:text-4xl font-semibold text-gray-800  text-border-bottom pb-1 sm:pb-2">Get in Touch </h2><FaHandshake className='hidden lg:block w-8 h-8 sm:w-12 sm:h-12 text-yellow-600'/>
             </div>
             <p className="text-gray-700 mb-4 text-sm sm:text-lg">We'd love to hear from you! Reach out to us through the following:</p>
             <p className="text-gray-700 mb-2">

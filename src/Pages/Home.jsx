@@ -3,7 +3,7 @@ import Hero from '../Home-Components/Hero'
 
 const Home = () => {
   return (
-    <div className="p-6 flex flex-col justify-center items-center overflow-hidden" data-aos="fade-up">
+    <div className="flex flex-col justify-center items-center overflow-hidden" data-aos="fade-up">
       <Hero />
     </div>
   )

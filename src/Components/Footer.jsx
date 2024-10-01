@@ -87,7 +87,7 @@ function Footer() {
                                 <li className="flex items-center space-x-2">
                                     <LuDiamond className="text-blue-400" />
                                     <Link
-                                        to="/services/hair-treatment/restoration-plan"
+                                        to="/"
                                         onClick={scrollToTop}
                                         className="hover:underline hover:text-blue-300"
                                     >
@@ -98,7 +98,7 @@ function Footer() {
                                 <li className="flex items-center space-x-2">
                                     <LuDiamond className="text-blue-400" />
                                     <Link
-                                        to="/services/hair-treatment/retention-plan"
+                                        to="/"
                                         onClick={scrollToTop}
                                         className="hover:underline hover:text-blue-300"
                                     >
@@ -109,7 +109,7 @@ function Footer() {
                                 <li className="flex items-center space-x-2">
                                     <LuDiamond className="text-blue-400" />
                                     <Link
-                                        to="/services/hair-treatment/super-speciality"
+                                        to="/"
                                         onClick={scrollToTop}
                                         className="hover:underline hover:text-blue-300"
                                     >
@@ -120,7 +120,7 @@ function Footer() {
                                 <li className="flex items-center space-x-2">
                                     <LuDiamond className="text-blue-400" />
                                     <Link
-                                        to="/services/hair-treatment/nonclinical"
+                                        to="/"
                                         onClick={scrollToTop}
                                         className="hover:underline hover:text-blue-300"
                                     >
@@ -131,7 +131,7 @@ function Footer() {
                                 <li className="flex items-center space-x-2">
                                     <LuDiamond className="text-blue-400" />
                                     <Link
-                                        to="/services/hair-treatment/nonclinical"
+                                        to="/"
                                         onClick={scrollToTop}
                                         className="hover:underline hover:text-blue-300"
                                     >
