@@ -66,7 +66,7 @@ const HomeProducts = () => {
                             {/* Product content */}
                             <div className='p-0 flex flex-col items-center'>
                                 {/* Product image with dark background and full width */}
-                                <div className='bg-gradient-to-t from-white via-[#005AB3] to-white w-full flex justify-center p-6  border-2 border-black rounded-t-md'>
+                                <div className='bg-gradient-to-t from-white via-[#005AB3] to-white w-full flex justify-center p-6  border-2 border-orange-500 rounded-t-md'>
                                     <img
                                         src={product.image}
                                         alt={product.Model}
@@ -75,7 +75,7 @@ const HomeProducts = () => {
                                 </div>
                             </div>
                             {/* Product title as a card header */}
-                            <div className='bg-gradient-to-r from-blue-800 via-black to-blue-800 text-white text-center py-2 '>
+                            <div className='bg-gradient-to-r from-blue-800 via-black to-blue-800 text-white text-center py-2 border-2 border-orange-500'>
                                 <h2 className='text-xl font-semibold' style={{ textShadow: "1px 1px 0px gray" }}>{product.Model}</h2>
                             </div>
                         </div>
