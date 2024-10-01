@@ -39,10 +39,10 @@ const Hero = () => {
   };
 
   return (
-    <div className='w-full min-h-[70vh] p-2 sm:p-6'>
-      <section className="relative min-h-[70vh] w-full flex flex-col lg:flex-row items-center justify-center hero-section bg-gradient-to-b from-gray-900 via-[#005AB3] to-white lg:bg-gradient-to-r border-2 border-orange-500 py-8 overflow-hidden">
+    <div className='w-full h-[70vh] sm:min-h-[70vh] p-2 sm:p-6'>
+      <section className="relative h-[70vh] sm:min-h-[70vh] w-full flex flex-col lg:flex-row items-center justify-center hero-section bg-gradient-to-b from-gray-900 via-[#005AB3] to-white lg:bg-gradient-to-r border-2 border-orange-500 py-4 sm:py-8 overflow-hidden">
         
-    <div className="w-full lg:w-[50%] absolute inset-0 bg-cover bg-left bg-opacity-30 -mt-[250px] sm:-mt-[70px]"
+    <div className="w-full lg:w-[50%] absolute inset-0 bg-cover bg-left bg-opacity-30 -mt-[150px] sm:-mt-[70px]"
     style={{ backgroundImage: `url(${HeroBg})`, backgroundSize: "contain", backgroundRepeat: "no-repeat", opacity: 0.3}} 
     ></div>
 
