@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import HeroBg from '../assets/neo-hero.png';
+import HeroBg from '../assets/herobg.png';
 import Slider from 'react-slick';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -42,9 +42,9 @@ const Hero = () => {
     <div className='w-full min-h-[70vh] p-2 sm:p-6'>
       <section className="relative min-h-[70vh] w-full flex flex-col lg:flex-row items-center justify-center hero-section bg-gradient-to-b from-gray-900 via-[#005AB3] to-white lg:bg-gradient-to-r border-2 border-orange-500 py-8 overflow-hidden">
         
-    {/* <div className="absolute inset-0 mx-auto bg-cover bg-center animate-bg-image"
-    style={{ backgroundImage: `url(${HeroBg})`, backgroundSize: "cover", backgroundRepeat: "no-repeat"}} 
-    ></div> */}
+    <div className="w-full lg:w-[50%] absolute inset-0 bg-cover bg-left bg-opacity-30 -mt-[150px] sm:-mt-[70px]"
+    style={{ backgroundImage: `url(${HeroBg})`, backgroundSize: "contain", backgroundRepeat: "no-repeat", opacity: 0.3}} 
+    ></div>
 
         <div className='px-8 pt-10 lg:p-20 flex flex-col justify-center items-center lg:items-start'>
           <h1 className="text-2xl sm:text-3xl lg:text-5xl text-white font-bold mb-4 text-center lg:text-left" data-aos="slide-right" data-aos-delay="300">
