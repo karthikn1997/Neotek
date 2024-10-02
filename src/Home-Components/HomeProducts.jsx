@@ -54,7 +54,7 @@ const HomeProducts = () => {
         <div>
             {/* Products section */}
             <div className='w-full sm:w-[95%] mx-auto py-8 px-4 '>
-                <div className='w-full text-center font-bold text-2xl md:text-4xl mb-4 py-4 sm:py-10 tracking-wider '>
+                <div className='w-full text-center font-bold text-3xl md:text-4xl mb-4 py-4 sm:py-10 tracking-wider '>
                     <h1 className='text-border-bottom pb-2 sm:pb-3 text-blue-500' style={{ textShadow: "1px 1px 1px black" }}>Our Products</h1>
                 </div>
                 {/* Grid to display two products per row */}
