@@ -7,13 +7,13 @@ import { FaSquarePhone } from "react-icons/fa6";
 const Topbar = () => {
     return (
         <>
-            <div className="hidden lg:flex flex-col">
+            <div className=" flex flex-col">
                 <div className="w-full bg-[#005AB3] text-white md:px-20 text-xs tracking-wider py-1">
-                    <div className="flex flex-col md:flex-row items-center justify-between">
+                    <div className="flex flex-col md:flex-row items-center justify-between ">
 
                         {/* Left Side: Address and Email */}
-                        <div className="md:flex lg:justify-evenly md:justify-center items-center md:gap-6">
-                            <div className="md:flex items-center gap-1 text-[rgb(255,181,36)]">
+                        <div className="w-full lg:w-auto flex justify-around lg:justify-evenly md:justify-center items-center gap-6">
+                            <div className="hidden md:flex items-center gap-1 text-[rgb(255,181,36)]">
                                 <MdLocationPin className="text-[#FF7A01] w-4 h-4 rounded-full mt-1" />
                                 <a href="#" className="text-white">
                                     4/79, Rasipuram, Namakkal, Salem - 636301
@@ -35,7 +35,7 @@ const Topbar = () => {
 
 
                         {/* Right Side: Social Icons */}
-                        <div className="flex items-center mt-2 md:mt-0">
+                        <div className="hidden lg:flex items-center mt-2 md:mt-0">
                             <span className="mr-3">24x7 Support</span>
                             <a href="#" className="text-white hover:text-[rgb(255,181,36)] border-x-[1px] border-black px-2">
                                 <FaFacebookF className="w-4 h-4" />
