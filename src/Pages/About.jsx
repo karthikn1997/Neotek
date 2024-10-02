@@ -34,7 +34,7 @@ const About = () => {
   return (
     <>
       {isLoading ? (
-        <div className="flex items-center justify-center h-screen bg-white">
+        <div className="flex items-center justify-center h-[80%] bg-white">
           <div className="flex items-center justify-center mr-20">
             {/* Slower spin animation */}
             <img src={Circle} className="slow-spin w-20 h-20 relative" alt="Spinning Circle" />
