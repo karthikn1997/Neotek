@@ -181,3 +181,22 @@
   animation-delay: calc(0.1s * var(--i));
 }
 
+.slick-prev, .slick-next {
+  color: black !important; /* Set arrow color */
+  z-index: 1; /* Ensure arrows are above the content */
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black; /* Set arrow color to black */
+  font-size: 30px; /* Adjust arrow size if needed */
+}
+
+.slick-prev {
+  left: -5px; /* Adjust left position of prev arrow */
+}
+
+.slick-next {
+  right: -5px; /* Adjust right position of next arrow */
+}
+
+

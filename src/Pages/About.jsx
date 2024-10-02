@@ -4,6 +4,8 @@ import About1 from "../assets/about-1.jpeg"
 import About2 from "../assets/about-2.jpeg"
 import MissionImg from "../assets/mission.jpeg"
 import VisionImg from "../assets/vission.jpeg"
+import Circle from "../assets/neotek-logo-c.png";
+import Text from "../assets/neotek-logo-t.png";
 
 const About = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -32,9 +34,12 @@ const About = () => {
   return (
     <>
       {isLoading ? (
-        <div className="flex justify-center items-center min-h-screen">
-          {/* Replace this div with your loading spinner */}
-          <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500"></div>
+        <div className="flex items-center justify-center h-screen bg-white">
+          <div className="flex items-center justify-center mr-20">
+            {/* Slower spin animation */}
+            <img src={Circle} className="slow-spin w-20 h-20 relative" alt="Spinning Circle" />
+            <img src={Text} className="w-32 mt-5 absolute translate-x-14" alt="Neotek Text Logo" />
+          </div>
         </div>
       ) : (
         <>
