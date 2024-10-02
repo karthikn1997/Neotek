@@ -182,21 +182,21 @@
 }
 
 .slick-prev, .slick-next {
-  color: black !important; /* Set arrow color */
-  z-index: 1; /* Ensure arrows are above the content */
+  color: rgb(255, 255, 255) !important; 
+  z-index: 1; 
 }
 
 .slick-prev:before, .slick-next:before {
-  color: black; /* Set arrow color to black */
-  font-size: 30px; /* Adjust arrow size if needed */
+  color: rgb(211, 211, 211); 
+  font-size: 25px; 
 }
 
 .slick-prev {
-  left: -5px; /* Adjust left position of prev arrow */
+  left: -5px; 
 }
 
 .slick-next {
-  right: -5px; /* Adjust right position of next arrow */
+  right: 5px; 
 }
 
 

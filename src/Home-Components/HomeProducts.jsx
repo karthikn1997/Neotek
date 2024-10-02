@@ -27,7 +27,7 @@ const HomeProducts = () => {
 
     // Slider settings
     const settings = {
-        dots: true, // Add dots below the slider
+        dots: false, // Add dots below the slider
         infinite: true,
         speed: 500,
         slidesToShow: 4, // Number of slides to show at a time
@@ -35,9 +35,15 @@ const HomeProducts = () => {
         arrows: true, // Ensure arrows are enabled
         responsive: [
             {
-                breakpoint: 1024, // For tablets and below
+                breakpoint: 1350, // For tablets and below
                 settings: {
                     slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1024, // For tablets and below
+                settings: {
+                    slidesToShow: 2,
                 }
             },
             {
@@ -64,7 +70,7 @@ const HomeProducts = () => {
                             {/* Product content */}
                             <div className='p-0 flex flex-col items-center'>
                                 {/* Product image with dark background and full width */}
-                                <div className='bg-white w-full flex flex-col justify-center px-6 rounded-t-md transition duration-1000 ease-in-out hover:bg-blue-900 hover:text-white'>
+                                <div className='bg-white w-full flex flex-col justify-center items-center px-6 rounded-t-md transition duration-1000 ease-in-out hover:bg-blue-900 hover:text-white'>
                                     <img
                                         src={product.image}
                                         alt={product.Model}
