@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .slow-spin {
+    animation: spin 2s linear infinite; /* Change the duration to 4 seconds */
+  }
+}
+
 .nav-link {
     position: relative;
     color: black;

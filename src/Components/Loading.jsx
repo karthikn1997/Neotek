@@ -1,15 +1,16 @@
 // Components/Loading.js
 import React from 'react';
-import { FaSpinner } from 'react-icons/fa'; // Import an icon from react-icons
-
+import Circle from "../assets/neotek-logo-c.png";
+import Text from "../assets/neotek-logo-t.png";
 
 const Loading = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-white ">
-      <FaSpinner className="text-blue-500 animate-spin" size={88} />
-      <h2 className="text-2xl m-5 font-bold text-gray-900 transition-all duration-300 hover:text-blue-500 hover:scale-110 cursor-pointer"
-        >
-          Neotek Sorting</h2>
+    <div className="flex items-center justify-center h-screen bg-white">
+      <div className="flex items-center justify-center mr-20">
+        {/* Slower spin animation */}
+        <img src={Circle} className="slow-spin w-20 h-20 relative" alt="Spinning Circle" />
+        <img src={Text} className="w-32 mt-5 absolute translate-x-14" alt="Neotek Text Logo" />
+      </div>
     </div>
   );
 };
