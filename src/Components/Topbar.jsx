@@ -7,8 +7,8 @@ import { FaSquarePhone } from "react-icons/fa6";
 const Topbar = () => {
     return (
         <>
-            <div className=" flex flex-col">
-                <div className="w-full bg-[#005AB3] text-white md:px-20 text-xs tracking-wider py-1">
+            <div className="w-full flex flex-col fixed z-50">
+                <div className="w-full bg-[#0B2F58] text-white md:px-20 text-xs tracking-wider py-1.5">
                     <div className="flex flex-col md:flex-row items-center justify-between ">
 
                         {/* Left Side: Address and Email */}

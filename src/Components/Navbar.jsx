@@ -10,7 +10,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="nav bg-white z-10 top-0 border-b-[1px] border-gray-700">
+        <nav className="nav bg-white z-10 top-0 border-b-[1px] border-gray-700 mt-7">
             <div className="max-w-7xl mx-auto px-8">
                 <div className="flex items-center justify-between sm:py-3 py-3">
                     <div className="flex items-center justify-between w-full">
