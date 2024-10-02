@@ -58,26 +58,24 @@ const HomeProducts = () => {
                     <h1 className='text-border-bottom pb-2 sm:pb-3 text-blue-500' style={{ textShadow: "1px 1px 1px black" }}>Our Products</h1>
                 </div>
                 {/* Grid to display two products per row */}
-                <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8'>
+                <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-4'>
                     {products.map((product, index) => (
-                        <div key={index} className='bg-white shadow-lg rounded-md overflow-hidden'>
+                        <div key={index} className='shadow-md rounded-md overflow-hidden border border-orange-600'>
 
 
                             {/* Product content */}
                             <div className='p-0 flex flex-col items-center'>
                                 {/* Product image with dark background and full width */}
-                                <div className='bg-gradient-to-t from-white via-[#005AB3] to-white w-full flex justify-center p-6  border-2 border-orange-500 rounded-t-md'>
+                                <div className='bg-white w-full flex flex-col justify-center px-6 rounded-t-md transition duration-1000 ease-in-out hover:bg-blue-900 hover:text-white'>
                                     <img
                                         src={product.image}
                                         alt={product.Model}
-                                        className='w-80 h-80 object-contain transition-transform duration-300 ease-in-out hover:scale-105 rounded-md' // Increased image size
+                                        className='w-80 h-80 object-contain transition-transform duration-500 ease-in-out hover:scale-105 rounded-md' // Increased image size
                                     />
+                                    <h2 className='text-xl font-semibold text-center mb-3 -mt-4' style={{ textShadow: "1px 1px 0px gray" }}>{product.Model}</h2>
                                 </div>
                             </div>
-                            {/* Product title as a card header */}
-                            <div className='bg-gradient-to-r from-blue-800 via-black to-blue-800 text-white text-center py-2 border-2 border-orange-500'>
-                                <h2 className='text-xl font-semibold' style={{ textShadow: "1px 1px 0px gray" }}>{product.Model}</h2>
-                            </div>
+
                         </div>
                     ))}
                 </div>
