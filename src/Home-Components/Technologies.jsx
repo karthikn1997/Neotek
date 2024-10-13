@@ -124,7 +124,7 @@ const Technologies = () => {
                                 alt={tech.title}
                                 className="w-full h-48 object-cover"
                             /> */}
-                            <div className='border-b-2 border-orange-500 text-2xl sm:text-4xl flex justify-center items-center py-6 bg-gradient-to-r from-[#194F7D] via-white to-[#194F7D] text-orange-600 font-extrabold'>
+                            <div className='border-b-2 border-orange-500 text-3xl sm:text-4xl flex justify-center items-center py-4 sm:py-6 bg-gradient-to-r from-[#194F7D] via-white to-[#194F7D] text-orange-600 font-extrabold'>
                                 {tech.icon}
                             </div>
                             <div className="p-2">
