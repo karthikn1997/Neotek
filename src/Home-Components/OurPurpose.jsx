@@ -4,7 +4,7 @@ import Bg from "../assets/purpose.jpg";
 const OurPurpose = () => {
     return (
         <section className="w-full mx-auto p-2 sm:p-6">
-            <div className="flex flex-col-reverse xl:flex-row w-full py-4 lg:py-10 text-left bg-slate-100 overflow-hidden items-center justify-between">
+            <div className="flex flex-col xl:flex-row w-full py-4 lg:py-10 text-left bg-slate-100 overflow-hidden items-center justify-between">
                 
                 {/* Left Side: Image */}
                 <div className="w-full xl:w-1/2 h-64 md:h-auto overflow-hidden">
