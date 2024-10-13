@@ -108,8 +108,8 @@ const Technologies = () => {
     return (
         <div className="w-full min-h-screen py-12 px-4 sm:px-8 lg:px-16 bg-white">
             <div className="max-w-screen-2xl mx-auto">
-                <h1 className="text-4xl font-bold text-center mb-8 text-blue-700">14 Core Technologies</h1>
-                <p className="text-xl text-center text-gray-700 mb-12">
+                <h1 className="text-2xl sm:text-4xl font-bold text-center mb-8 text-blue-700">14 Core Technologies</h1>
+                <p className="text-lg sm:text-xl text-center text-gray-700 mb-12">
                     Discover the cutting-edge technologies that drive innovation at NEOTEK.
                 </p>
 
@@ -124,7 +124,7 @@ const Technologies = () => {
                                 alt={tech.title}
                                 className="w-full h-48 object-cover"
                             /> */}
-                            <div className='border-b-2 border-orange-500 text-2xl sm:text-4xl flex justify-center items-center py-6 bg-gradient-to-r from-[#0B2F58] via-white to-[#0B2F58] text-orange-600 font-extrabold'>
+                            <div className='border-b-2 border-orange-500 text-2xl sm:text-4xl flex justify-center items-center py-6 bg-gradient-to-r from-[#194F7D] via-white to-[#194F7D] text-orange-600 font-extrabold'>
                                 {tech.icon}
                             </div>
                             <div className="p-2">

@@ -16,8 +16,8 @@ const Innovation = () => {
     return (
         <div className='w-full min-h-screen py-14 px-4'>
             <div className='w-[90%] mx-auto flex flex-col items-center'>
-                <div className='w-full text-center lg:text-left' data-aos="fade-up" data-aos-delay="300">
-                    <h1 className='text-3xl lg:text-4xl font-bold mb-6 border-b-2 border-blue-500 pb-2'>
+                <div className='w-full text-left' data-aos="fade-up" data-aos-delay="300">
+                    <h1 className='text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 border-b-2 border-blue-500 pb-2'>
                         About <span className='text-blue-600'>Services</span>
                     </h1>
                     <div className='text-base lg:text-lg text-gray-900 leading-7 mb-4'>
@@ -55,7 +55,7 @@ const Innovation = () => {
                         </div>
 
                         {/* Vertical Dotted Line */}
-                        <div className='h-[200px] w-[2px] bg-dotted bg-blue-600 opacity-70 mt-4'></div>
+                        <div className='h-[100px] sm:h-[200px] w-[2px] bg-dotted bg-blue-600 opacity-70 mt-4'></div>
                     </div>
 
                     {/* Second Image Container */}
