@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 @layer utilities {
   .slow-spin {
     animation: spin 2s linear infinite; /* Change the duration to 4 seconds */
   }
+}
+
+* {
+  font-family: 'Lora', serif; 
 }
 
 .nav-link {

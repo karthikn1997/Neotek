@@ -47,7 +47,7 @@ const Contact = () => {
           <img src={ContactBg} className='w-full h-[20vh] md:h-[45vh] object-cover' alt="Contact Background" />
 
           {/* Blue transparent overlay */}
-          <div className='absolute top-0 left-0 w-full h-full bg-black bg-opacity-70 border-b-4 border-blue-500'></div>
+          <div className='absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 border-b-4 border-blue-500'></div>
 
           {/* Centered text with inside border */}
           <div className='absolute top-0 left-0 w-full h-full flex justify-center items-center p-2 sm:p-4'>
