@@ -127,9 +127,9 @@ const Technologies = () => {
                             <div className='border-b-2 border-orange-500 text-3xl sm:text-4xl flex justify-center items-center py-4 sm:py-6 bg-gradient-to-r from-[#194F7D] via-white to-[#194F7D] text-orange-600 font-extrabold'>
                                 {tech.icon}
                             </div>
-                            <div className="p-2">
+                            <div className="pt-4 p-2">
                                 {/* Displaying the number before the title */}
-                                <h3 className="text-lg font-semibold text-gray-800 mb-2 text-center">
+                                <h3 className="text-sm sm:text-lg font-semibold text-gray-800 mb-2 text-center">
                                     {index + 1}. {tech.title}
                                 </h3>
                                 {/* <p className="text-gray-600 text-base">
