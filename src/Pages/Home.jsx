@@ -5,6 +5,7 @@ import HomeAbout from '../Home-Components/HomeAbout';
 import OurPurpose from '../Home-Components/OurPurpose';
 import Future from '../Home-Components/Future';
 import Technologies from '../Home-Components/Technologies';
+import Commodities from '../Home-Components/Commodities';
 
 const Home = () => {
   // Scroll to top on component mount
@@ -20,6 +21,7 @@ const Home = () => {
       <HomeProducts />
       <Future />
       <Technologies />
+      <Commodities />
     </div>
   );
 };
