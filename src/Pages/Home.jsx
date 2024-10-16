@@ -6,6 +6,7 @@ import OurPurpose from '../Home-Components/OurPurpose';
 import Future from '../Home-Components/Future';
 import Technologies from '../Home-Components/Technologies';
 import Commodities from '../Home-Components/Commodities';
+import Testimonial from '../Home-Components/Testimonial';
 
 const Home = () => {
   // Scroll to top on component mount
@@ -22,6 +23,7 @@ const Home = () => {
       <Future />
       <Technologies />
       <Commodities />
+      <Testimonial />
     </div>
   );
 };

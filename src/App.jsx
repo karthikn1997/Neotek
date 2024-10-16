@@ -10,6 +10,7 @@ import Contact from "./Pages/Contact"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Loading from './Components/Loading';
+import Commodities from './Pages/Commodities';
 
 
 function App() {
@@ -35,11 +36,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<Layout />}>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/about" element={<About />} />
-          <Route path="/products" element={<Products/>} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/commodities" element={<Commodities />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
           </Route>
         </Routes>
       </BrowserRouter>

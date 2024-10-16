@@ -54,6 +54,16 @@ const Navbar = () => {
                                     Products
                                 </NavLink>
                                 <NavLink
+                                    to="/commodities"
+                                    className={({ isActive }) =>
+                                        isActive
+                                            ? "nav-link-active"
+                                            : "nav-link"
+                                    }
+                                >
+                                    Commodities
+                                </NavLink>
+                                <NavLink
                                     to="/services"
                                     className={({ isActive }) =>
                                         isActive
@@ -118,15 +128,16 @@ const Navbar = () => {
             </div>
 
             {isOpen && (
-                <div className="md:hidden bg-gray-200 flex justify-center items-center">
-                    <div className="px-2 py-2 pb-4 space-x-2 xxs:space-x-4 sm:space-x-8 sm:px-3 text-[14px] sm:text-[16px] font-semibold">
+                <div className="w-full md:hidden bg-gray-200 flex flex-col justify-center items-center ">
+                    <div className="w-full flex flex-col text-[14px] sm:text-[16px] font-semibold text-left tracking-wider">
                         <NavLink
                             to="/"
                             className={({ isActive }) =>
                                 isActive
-                                    ? "nav-link-active"
-                                    : "nav-link"
+                                    ? "bg-gray-300 px-4 py-1"
+                                    : "px-4 py-1"
                             }
+                            onClick={toggleNavbar}
                         >
                             Home
                         </NavLink>
@@ -134,9 +145,10 @@ const Navbar = () => {
                             to="/about"
                             className={({ isActive }) =>
                                 isActive
-                                    ? "nav-link-active"
-                                    : "nav-link"
+                                    ? "bg-gray-300 px-4 py-1"
+                                    : "px-4 py-1"
                             }
+                            onClick={toggleNavbar}
                         >
                             About
                         </NavLink>
@@ -144,19 +156,32 @@ const Navbar = () => {
                             to="/products"
                             className={({ isActive }) =>
                                 isActive
-                                    ? "nav-link-active"
-                                    : "nav-link"
+                                    ? "bg-gray-300 px-4 py-1"
+                                    : "px-4 py-1"
                             }
+                            onClick={toggleNavbar}
                         >
                             Products
+                        </NavLink>
+                        <NavLink
+                            to="/commodities"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? "bg-gray-300 px-4 py-1"
+                                    : "px-4 py-1"
+                            }
+                            onClick={toggleNavbar}
+                        >
+                            Commodities
                         </NavLink>
                         <NavLink
                             to="/services"
                             className={({ isActive }) =>
                                 isActive
-                                    ? "nav-link-active"
-                                    : "nav-link"
+                                    ? "bg-gray-300 px-4 py-1"
+                                    : "px-4 py-1"
                             }
+                            onClick={toggleNavbar}
                         >
                             Services
                         </NavLink>
@@ -164,9 +189,10 @@ const Navbar = () => {
                             to="/contact"
                             className={({ isActive }) =>
                                 isActive
-                                    ? "nav-link-active"
-                                    : "nav-link"
+                                    ? "bg-gray-300 px-4 py-1"
+                                    : "px-4 py-1"
                             }
+                            onClick={toggleNavbar}
                         >
                             Contact
                         </NavLink>

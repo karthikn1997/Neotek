@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Rice from "../assets/rice.jpg";
@@ -21,7 +22,7 @@ import Granules from "../assets/granules.jpg";
 
 const commodities = [
     { name: 'Rice', img: Rice },
-    { name: 'Rosted Peanut', img: RostedPeanut },
+    { name: 'Roasted Peanut', img: RostedPeanut },
     { name: 'Groundnut', img: Groundnut },
     { name: 'Fired Gram', img: FiredGram },
     { name: 'Wheat', img: Wheat },
@@ -39,6 +40,8 @@ const commodities = [
 ];
 
 const Commodities = () => {
+    const navigate = useNavigate(); // Create a navigate function
+
     // Slider settings with responsive design
     const settings = {
         dots: false,
@@ -75,9 +78,14 @@ const Commodities = () => {
         <div className="w-full py-8 pt-14 bg-gradient-to-b from-gray-900 to-[#005AB3] ">
             <div className="w-[90%] mx-auto">
                 <h2 className="text-2xl sm:text-4xl text-white tracking-wider font-bold text-center mb-8">Our Commodities</h2>
+
                 <Slider {...settings}>
                     {commodities.map((commodity, index) => (
-                        <div key={index} className="text-center mb-6">
+                        <div
+                            key={index}
+                            className="text-center mb-6 cursor-pointer"
+                            onClick={() => navigate('/commodities')} // Navigate on click
+                        >
                             <img
                                 src={commodity.img}
                                 alt={commodity.name}
@@ -87,6 +95,16 @@ const Commodities = () => {
                         </div>
                     ))}
                 </Slider>
+
+                {/* View More Button */}
+                <div className="text-center mt-8">
+                    <button
+                        className="px-6 py-2 bg-white text-black font-bold rounded-lg hover:bg-gray-200 transition-all"
+                        onClick={() => navigate('/commodities')} // Navigate to /commodities
+                    >
+                        View More
+                    </button>
+                </div>
             </div>
         </div>
     );
