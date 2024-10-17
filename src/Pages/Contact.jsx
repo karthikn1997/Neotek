@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -10,6 +10,11 @@ import { FaHandshake } from "react-icons/fa";
 const Contact = () => {
   const form = useRef();
   const [loading, setLoading] = useState(false); // Loading state
+
+  // Scroll to the top of the page when the component is mounted
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -52,7 +57,7 @@ const Contact = () => {
           {/* Centered text with inside border */}
           <div className='absolute top-0 left-0 w-full h-full flex justify-center items-center p-2 sm:p-4'>
             <div className='w-full h-full flex justify-center items-center border-2 border-blue-600 border-opacity-60 p-4 box-border gap-2 sm:gap-4'>
-            
+
               <h1 className='text-blue-600 text-2xl sm:text-4xl lg:text-5xl font-bold uppercase tracking-widest pb-1 sm:pb-3 text-border-bottom'>Contact Us</h1>
             </div>
           </div>
@@ -74,7 +79,7 @@ const Contact = () => {
           {/* Get in Touch Section */}
           <div className="w-full lg:w-[50%] text-center lg:text-left mx-auto mt-6 lg:mt-0">
             <div className='flex justify-center items-center lg:justify-start lg:items-start gap-4 mb-2 sm:mb-4'>
-              <h2 className="flex text-2xl sm:text-4xl font-semibold text-gray-800  text-border-bottom pb-1 sm:pb-2">Get in Touch </h2><FaHandshake className='hidden lg:block w-8 h-8 sm:w-12 sm:h-12 text-yellow-600'/>
+              <h2 className="flex text-2xl sm:text-4xl font-semibold text-gray-800  text-border-bottom pb-1 sm:pb-2">Get in Touch </h2><FaHandshake className='hidden lg:block w-8 h-8 sm:w-12 sm:h-12 text-yellow-600' />
             </div>
             <p className="text-gray-700 mb-4 text-sm sm:text-lg">We'd love to hear from you! Reach out to us through the following:</p>
             <p className="text-gray-700 mb-2">

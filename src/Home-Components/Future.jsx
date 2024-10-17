@@ -3,8 +3,11 @@ import bg from '../assets/about-neo.jpeg';
 import { FaArrowRightLong } from "react-icons/fa6";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useNavigate } from 'react-router-dom';
 
 const Future = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     AOS.init({
       duration: 1000
@@ -26,7 +29,7 @@ const Future = () => {
             {/* <p className='text-xl text-gray-300 mb-8 px-10' data-aos="slide-left" data-aos-delay="300">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias quas quaerat tempore, tempora illo pariatur facere minus inventore odio provident laboriosam. Facere nulla consectetur, maxime ducimus provident commodi perferendis?
             </p> */}
-            <button className="w-[80%] sm:w-[40%] mx-auto bg-gradient-to-r from-blue-900 via-black to-black hover:bg-gradient-to-l text-white font-semibold py-2 sm:py-3 px-8 rounded-xl transition duration-300 border-[2px] border-white whitespace-nowrap" data-aos="flip-left" data-aos-delay="300">
+            <button onClick={() => navigate('/contact')} className="w-[80%] sm:w-[40%] mx-auto bg-gradient-to-r from-blue-900 via-black to-black hover:bg-gradient-to-l text-white font-semibold py-2 sm:py-3 px-8 rounded-xl transition duration-300 border-[2px] border-white whitespace-nowrap" data-aos="flip-left" data-aos-delay="300">
               <div className='flex items-center justify-center gap-3 font-bold text-xl text-white hover:text-black'>
                 <span className='text-lg lg:text-2xl text-white flex justify-center items-center gap-4 tracking-wider'>Request A Visit <FaArrowRightLong className='mt-1'/></span>
               </div>
