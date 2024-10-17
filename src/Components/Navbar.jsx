@@ -134,8 +134,8 @@ const Navbar = () => {
                             to="/"
                             className={({ isActive }) =>
                                 isActive
-                                    ? "bg-gray-300 px-4 py-1"
-                                    : "px-4 py-1"
+                                    ? "bg-gray-300 px-4 py-2"
+                                    : "px-4 py-2"
                             }
                             onClick={toggleNavbar}
                         >
@@ -145,8 +145,8 @@ const Navbar = () => {
                             to="/about"
                             className={({ isActive }) =>
                                 isActive
-                                    ? "bg-gray-300 px-4 py-1"
-                                    : "px-4 py-1"
+                                    ? "bg-gray-300 px-4 py-2"
+                                    : "px-4 py-2"
                             }
                             onClick={toggleNavbar}
                         >
@@ -156,8 +156,8 @@ const Navbar = () => {
                             to="/products"
                             className={({ isActive }) =>
                                 isActive
-                                    ? "bg-gray-300 px-4 py-1"
-                                    : "px-4 py-1"
+                                    ? "bg-gray-300 px-4 py-2"
+                                    : "px-4 py-2"
                             }
                             onClick={toggleNavbar}
                         >
@@ -167,8 +167,8 @@ const Navbar = () => {
                             to="/commodities"
                             className={({ isActive }) =>
                                 isActive
-                                    ? "bg-gray-300 px-4 py-1"
-                                    : "px-4 py-1"
+                                    ? "bg-gray-300 px-4 py-2"
+                                    : "px-4 py-2"
                             }
                             onClick={toggleNavbar}
                         >
@@ -178,8 +178,8 @@ const Navbar = () => {
                             to="/services"
                             className={({ isActive }) =>
                                 isActive
-                                    ? "bg-gray-300 px-4 py-1"
-                                    : "px-4 py-1"
+                                    ? "bg-gray-300 px-4 py-2"
+                                    : "px-4 py-2"
                             }
                             onClick={toggleNavbar}
                         >
@@ -189,8 +189,8 @@ const Navbar = () => {
                             to="/contact"
                             className={({ isActive }) =>
                                 isActive
-                                    ? "bg-gray-300 px-4 py-1"
-                                    : "px-4 py-1"
+                                    ? "bg-gray-300 px-4 py-2"
+                                    : "px-4 py-2"
                             }
                             onClick={toggleNavbar}
                         >
