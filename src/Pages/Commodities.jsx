@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import Bg from "../assets/banner.jpeg";
 import Rice from "../assets/rice.jpg";
+import Peanut from "../assets/peanut.jpg";
 import RostedPeanut from "../assets/roated-peanut.jpg";
-import Groundnut from "../assets/groundnut.jpg";
+// import Groundnut from "../assets/groundnut.jpg";
 import FiredGram from "../assets/fired-gram.jpg";
 import Wheat from "../assets/wheat.jpg";
 import UradDal from "../assets/urad-dal.jpg";
@@ -25,8 +26,10 @@ const Commodities = () => {
 
     const commodities = [
         { name: 'Rice', img: Rice },
+        { name: 'Peanut', img: Peanut },
+        { name: 'Coffee Beans', img: CoffeeBeans },
         { name: 'Roasted Peanut', img: RostedPeanut },
-        { name: 'Groundnut', img: Groundnut },
+        // { name: 'Groundnut', img: Groundnut },
         { name: 'Fired Gram', img: FiredGram },
         { name: 'Wheat', img: Wheat },
         { name: 'Urad Dal', img: UradDal },
@@ -35,7 +38,6 @@ const Commodities = () => {
         { name: 'Mansoor Dall', img: MansoorDal },
         { name: 'Cardamom', img: Cardamom },
         { name: 'Cashewnut', img: Cashewnut },
-        { name: 'Coffee Beans', img: CoffeeBeans },
         { name: 'Millet', img: Millet },
         { name: 'Raisins', img: Raisins },
         { name: 'Plastics', img: Plastics },

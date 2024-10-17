@@ -4,8 +4,9 @@ import { useNavigate } from 'react-router-dom'; // Import useNavigate for naviga
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Rice from "../assets/rice.jpg";
+import Peanut from "../assets/peanut.jpg";
 import RostedPeanut from "../assets/roated-peanut.jpg";
-import Groundnut from "../assets/groundnut.jpg";
+// import Groundnut from "../assets/groundnut.jpg";
 import FiredGram from "../assets/fired-gram.jpg";
 import Wheat from "../assets/wheat.jpg";
 import UradDal from "../assets/urad-dal.jpg";
@@ -22,8 +23,10 @@ import Granules from "../assets/granules.jpg";
 
 const commodities = [
     { name: 'Rice', img: Rice },
+    { name: 'Peanut', img: Peanut },
+    { name: 'Coffee Beans', img: CoffeeBeans },
     { name: 'Roasted Peanut', img: RostedPeanut },
-    { name: 'Groundnut', img: Groundnut },
+    // { name: 'Groundnut', img: Groundnut },
     { name: 'Fired Gram', img: FiredGram },
     { name: 'Wheat', img: Wheat },
     { name: 'Urad Dal', img: UradDal },
@@ -31,8 +34,7 @@ const commodities = [
     { name: 'Green Dal', img: GreenDal },
     { name: 'Mansoor Dall', img: MansoorDal },
     { name: 'Cardamom', img: Cardamom },
-    { name: 'Cashewnut', img: Cashewnut },
-    { name: 'Coffee Beans', img: CoffeeBeans },
+    { name: 'Cashewnut', img: Cashewnut }, 
     { name: 'Millet', img: Millet },
     { name: 'Raisins', img: Raisins },
     { name: 'Plastics', img: Plastics },
@@ -89,7 +91,7 @@ const Commodities = () => {
                             <img
                                 src={commodity.img}
                                 alt={commodity.name}
-                                className="mx-auto w-32 h-32 rounded-[50%] border-2 border-white p-1"
+                                className="mx-auto w-32 h-32 rounded-[50%] border-2 border-white p-1 object-cover"
                             />
                             <p className="mt-2 text-lg text-white">{commodity.name}</p>
                         </div>

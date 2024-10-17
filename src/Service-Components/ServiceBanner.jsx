@@ -7,7 +7,7 @@ const ServiceBanner = () => {
             <div className='bg-[#0B2F58] w-[90%] mx-auto flex flex-col md:flex-row justify-between items-center border rounded-lg p-6 px-10 '>
 
                 {/* Left Text Section */}
-                <div className='w-full md:w-[70%] text-center md:text-left p-4 text-2xl md:text-4xl lg:text-5xl font-bold text-white  leading-snug font-sans'>
+                <div className='w-full md:w-[70%] text-center md:text-left p-4 text-3xl md:text-4xl lg:text-5xl font-bold text-white  leading-snug font-sans'>
                     Want to explore <span className='text-[#56CCF2] font-sans'>how automation could optimise</span> your plant's operations?
                 </div>
 

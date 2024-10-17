@@ -20,7 +20,7 @@ const Innovation = () => {
                     <h1 className='text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 border-b-2 border-blue-500 pb-2'>
                         About <span className='text-blue-600'>Services</span>
                     </h1>
-                    <div className='text-base lg:text-lg text-gray-900 leading-7 mb-4'>
+                    <div className='text-lg lg:text-xl text-gray-900 leading-7 mb-4'>
                         <p className='mb-4'>
                             Neotek Sorting Company specializes in advanced sorting solutions for food products such as rice, wheat, lentils (dhall), nuts, and more. Our state-of-the-art sorting technology ensures that food items are processed with the highest level of precision and quality control. By leveraging cutting-edge machinery and AI-driven techniques, we help reduce impurities and ensure that only the finest grains and products make it to the market.
                         </p>
@@ -68,7 +68,7 @@ const Innovation = () => {
                     </div>
                 </div>
 
-                <div className='text-base lg:text-lg text-gray-900 leading-7 mb-4' data-aos="fade-up" data-aos-delay="300">
+                <div className='text-lg lg:text-xl text-gray-900 leading-7 mb-4' data-aos="fade-up" data-aos-delay="300">
                     <p className='mb-4'>
                         Neotek is not only focused on efficiency but also on sustainability. By reducing food wastage and ensuring top-quality products, we contribute to a more sustainable food supply chain. Our dedicated team of experts ensures that every batch of sorted products meets the highest standards of hygiene and quality.
                     </p>

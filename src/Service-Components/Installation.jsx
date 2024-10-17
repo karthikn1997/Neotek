@@ -13,10 +13,10 @@ const Installation = () => {
           <h1 className="text-3xl md:text-5xl font-bold text-gray-800 leading-snug">
             Support from <span className='text-[#37689F]'>Installation to Insight</span>
           </h1>
-          <p className="text-lg text-gray-600 leading-relaxed">
+          <p className="text-lg md:text-xl  text-gray-600 leading-relaxed">
             Neotek Sorting Machines offers comprehensive support through every step of the installation process. From initial setup to performance optimization, our team ensures seamless integration of our machines into your production line. With our expert insights and solutions, you can maximize productivity and efficiency.
           </p>
-          <ul className="list-disc pl-5 space-y-2 text-gray-600">
+          <ul className="list-disc pl-5 space-y-2 text-gray-600 text-sm md:text-lg ">
             <li>Site evaluation and machine setup</li>
             <li>On-site installation and configuration</li>
             <li>Performance testing and optimization</li>
