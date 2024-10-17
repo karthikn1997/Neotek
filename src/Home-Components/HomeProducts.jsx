@@ -11,8 +11,11 @@ import SX7 from "../assets/sx-7.png";
 import SX8 from "../assets/sx-8.png";
 import SX10 from "../assets/sx-10.png";
 import SX12 from "../assets/sx-12.png";
+import { useNavigate } from 'react-router-dom';
 
 const HomeProducts = () => {
+    const navigate = useNavigate();
+
     const products = [
         { image: SX2, Model: "SX 2" },
         { image: SX3, Model: "SX 3" },
@@ -61,11 +64,11 @@ const HomeProducts = () => {
             <div className='w-[85%] md:w-[96%] mx-auto font-bold text-2xl md:text-3xl mb-4 py-4 sm:pt-10 tracking-wider'>
                 <h1 className='border-x-4 border-blue-500 py-2 sm:py-4 text-blue-500 text-center md:text-left bg-gray-100 px-6 rounded-lg' style={{ textShadow: "1px 1px 1px black" }}>Our Products</h1>
             </div>
-            
+
             {/* Slider component */}
             <Slider {...settings} className="px-4">
                 {products.map((product, index) => (
-                    <div key={index} className='px-4'>
+                    <div key={index} className='px-4' onClick={() => navigate('/products')}>
                         <div className='shadow-md rounded-md overflow-hidden border border-orange-600'>
                             {/* Product content */}
                             <div className='p-0 flex flex-col items-center'>
@@ -83,6 +86,16 @@ const HomeProducts = () => {
                     </div>
                 ))}
             </Slider>
+
+            {/* View More Button */}
+            <div className="text-center mt-8">
+                <button
+                    className="px-6 py-2 bg-gray-300 text-black font-bold rounded-lg hover:bg-gray-200 transition-all"
+                    onClick={() => navigate('/products')} // Navigate to /commodities
+                >
+                    View More
+                </button>
+            </div>
         </div>
     );
 };

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ProductBg from "../assets/products.jpg"
 import SX2 from "../assets/sx-2.png"
 import SX3 from "../assets/sx-3.png"
@@ -12,6 +12,11 @@ import SX12 from "../assets/sx-12.png"
 
 
 const Products = () => {
+
+  // Scroll to the top of the page when the component is mounted
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const products = [
     {
