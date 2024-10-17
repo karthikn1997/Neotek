@@ -16,7 +16,7 @@ const Installation = () => {
           <p className="text-lg md:text-xl  text-gray-600 leading-relaxed">
             Neotek Sorting Machines offers comprehensive support through every step of the installation process. From initial setup to performance optimization, our team ensures seamless integration of our machines into your production line. With our expert insights and solutions, you can maximize productivity and efficiency.
           </p>
-          <ul className="list-disc pl-5 space-y-2 text-gray-600 text-sm md:text-lg ">
+          <ul className="list-disc pl-5 space-y-2 text-gray-600 text-md md:text-lg ">
             <li>Site evaluation and machine setup</li>
             <li>On-site installation and configuration</li>
             <li>Performance testing and optimization</li>

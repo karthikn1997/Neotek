@@ -13,10 +13,12 @@ const ServiceBanner = () => {
 
                 {/* Right Button Section */}
                 <div className='w-full md:w-[30%] flex justify-center md:justify-end mt-6 md:mt-0'>
-                    <button className='bg-gradient-to-r from-transparent to-[#2F80ED] text-white text-lg md:text-xl font-semibold px-8 py-3 rounded-lg shadow-md flex items-center hover:bg-[#1F4C73]  transition duration-300 border border-gray-400'>
-                        <FaComments className='mr-3' />
-                        Speak to our experts
-                    </button>
+                    <a href="tel:+919514088114">
+                        <button className='bg-gradient-to-r from-transparent to-[#2F80ED] text-white text-lg md:text-xl font-semibold px-8 py-3 rounded-lg shadow-md flex items-center hover:bg-[#1F4C73]  transition duration-300 border border-gray-400'>
+                            <FaComments className='mr-3' />
+                            Speak to our experts
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

@@ -86,10 +86,16 @@ const Contact = () => {
               <span className="mr-2">📍</span> 4/79, Karadiyanur, Rasipuram, Thengalpalayam, Namakkal, Tamilnadu, Salem - 636301
             </p>
             <p className="text-gray-700 mb-2">
-              <span className="mr-2">📞</span> Sales: 9514088115
+              <span className="mr-2">📞</span> Sales: 9514088115, 8056463123
             </p>
             <p className="text-gray-700 mb-2">
-              <span className="mr-2">📞</span> Service: 9514088115
+              <span className="mr-2">📞</span> Service: 9514088114, 9025052800
+            </p>
+            <p className="text-gray-700 mb-2">
+              <span className="mr-2">📞</span> Technical Support: 9514088112
+            </p>
+            <p className="text-gray-700 mb-2">
+              <span className="mr-2">📞</span> Customer Service: 9514088116
             </p>
             <p className="text-gray-700 mb-2">
               <span className="mr-2">✉️</span> Email: sales@neoteksorting.com
