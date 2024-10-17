@@ -18,11 +18,11 @@ const Navbar = () => {
                             <img
                                 src={logo}
                                 alt="Logo"
-                                className="w-[90px] lg:w-[130px]"
+                                className="w-[110px] lg:w-[140px]"
                             />
                         </div>
                         <div className="hidden md:block font-semibold">
-                            <div className="ml-10 flex items-baseline space-x-8">
+                            <div className="ml-10 flex items-baseline space-x-8 text-lg ">
                                 <NavLink
                                     to="/"
                                     className={({ isActive }) =>
@@ -94,7 +94,7 @@ const Navbar = () => {
                             {!isOpen ? (
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="h-6 w-6"
+                                    className="h-8 w-8"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
@@ -109,7 +109,7 @@ const Navbar = () => {
                             ) : (
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="h-6 w-6"
+                                    className="h-8 w-8"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
@@ -129,7 +129,7 @@ const Navbar = () => {
 
             {isOpen && (
                 <div className="w-full md:hidden bg-gray-200 flex flex-col justify-center items-center ">
-                    <div className="w-full flex flex-col text-[14px] sm:text-[16px] font-semibold text-left tracking-wider">
+                    <div className="w-full flex flex-col text-[16px] font-semibold text-left tracking-wider">
                         <NavLink
                             to="/"
                             className={({ isActive }) =>

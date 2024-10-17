@@ -8,8 +8,8 @@ const Loading = () => {
     <div className="flex items-center justify-center h-screen bg-white">
       <div className="flex items-center justify-center mr-20">
         {/* Slower spin animation */}
-        <img src={Circle} className="slow-spin w-20 h-20 relative" alt="Spinning Circle" />
-        <img src={Text} className="w-32 mt-5 absolute translate-x-14" alt="Neotek Text Logo" />
+        <img src={Circle} className="slow-spin w-28 h-28 relative" alt="Spinning Circle" />
+        <img src={Text} className="w-40 mt-5 absolute translate-x-16" alt="Neotek Text Logo" />
       </div>
     </div>
   );
