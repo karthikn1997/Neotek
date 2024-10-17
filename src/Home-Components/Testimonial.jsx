@@ -43,7 +43,7 @@ const PrevArrow = (props) => {
     const { onClick } = props;
     return (
         <div
-            className="absolute top-1/2 left-0 sm:-left-14 transform -translate-y-1/2 p-4 cursor-pointer z-10 "
+            className="absolute top-1/2 -left-8 sm:-left-14 transform -translate-y-1/2 p-4 cursor-pointer z-10 "
             onClick={onClick}
         >
             <RiArrowLeftDoubleFill className="text-blue-700 text-3xl hover:text-blue-900 " />
@@ -55,7 +55,7 @@ const NextArrow = (props) => {
     const { onClick } = props;
     return (
         <div
-            className="absolute top-1/2 right-0 sm:-right-14 transform -translate-y-1/2 p-4 cursor-pointer z-10"
+            className="absolute top-1/2 -right-8 sm:-right-14 transform -translate-y-1/2 p-4 cursor-pointer z-10"
             onClick={onClick}
         >
             <RiArrowRightDoubleFill className="text-blue-700 text-3xl hover:text-blue-900" />
@@ -98,7 +98,7 @@ const Testimonial = () => {
                     {testimonials.map((testimonial, index) => (
                         <div key={index} className="px-4 mb-8">
                             <div className="bg-blue-200 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-full min-h-[250px]">
-                                <p className="text-gray-700 italic mb-6">"{testimonial.feedback}"</p>
+                                <p className="text-gray-700 italic mb-6 text-sm sm:text-lg">"{testimonial.feedback}"</p>
                                 <div className="mt-auto">
                                     <div className="text-gray-900 font-bold text-lg">{testimonial.name}</div>
                                     <div className="text-gray-600">{testimonial.designation}, {testimonial.company}</div>
