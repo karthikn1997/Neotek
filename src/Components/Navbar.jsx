@@ -18,7 +18,7 @@ const Navbar = () => {
                             <img
                                 src={logo}
                                 alt="Logo"
-                                className="w-[110px] lg:w-[140px]"
+                                className="w-[120px] lg:w-[140px]"
                             />
                         </div>
                         <div className="hidden md:block font-semibold">

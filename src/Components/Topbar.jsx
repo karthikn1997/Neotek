@@ -8,7 +8,7 @@ const Topbar = () => {
     return (
         <>
             <div className="w-full flex flex-col fixed z-50">
-                <div className="w-full bg-[#0B2F58] text-white md:px-20 text-xs tracking-wider py-1.5">
+                <div className="w-full bg-[#0B2F58] text-white md:px-20 text-sm tracking-wider py-2">
                     <div className="flex flex-col md:flex-row items-center justify-between ">
 
                         {/* Left Side: Address and Email */}

@@ -25,7 +25,7 @@ const OurPurpose = () => {
                             Our Purpose
                         </h1>
                     </div>
-                    <p className="text-gray-700 text-sm sm:text-lg leading-relaxed mb-4">
+                    <p className="text-gray-700 text-lg sm:text-xl leading-relaxed mb-4">
                         At Neotek Sorting, we are committed to ensuring that food products, such as nuts, rice, wheat, and other essential commodities, meet the highest quality standards. Our purpose is to revolutionize the food sorting industry by implementing advanced sorting technologies that enhance efficiency, reduce waste, and deliver consistent, high-quality products to our customers.
                     </p>
 
@@ -38,10 +38,10 @@ const OurPurpose = () => {
                         />
                     </div>
 
-                    <p className="text-gray-700 text-sm sm:text-lg leading-relaxed mb-4">
+                    <p className="text-gray-700 text-lg sm:text-xl leading-relaxed mb-4">
                         We understand that the quality of food is critical for healthy living, and we are dedicated to making sure that every grain and nut is carefully sorted, ensuring only the best reaches our consumers. With innovation at the heart of our processes, we strive to improve the safety and reliability of the food supply chain.
                     </p>
-                    <p className="text-gray-700 text-sm sm:text-lg leading-relaxed">
+                    <p className="text-gray-700 text-lg sm:text-xl leading-relaxed">
                         Neotek Sorting not only enhances product quality but also empowers producers to optimize their yields and minimize losses. Our focus is on delivering excellence in every batch of food products we process, contributing to a healthier, safer, and more sustainable future for everyone.
                     </p>
                 </div>

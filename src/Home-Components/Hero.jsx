@@ -9,7 +9,7 @@ import SX12 from "../assets/sx-12.png"
 import SX10 from "../assets/sx-10.png"
 import SX8 from "../assets/sx-8.png"
 
-import { FaRegArrowAltCircleDown } from "react-icons/fa";
+// import { FaRegArrowAltCircleDown } from "react-icons/fa";
 import { Typewriter } from 'react-simple-typewriter';
 
 function scrollToSection() {
@@ -62,14 +62,14 @@ const Hero = () => {
               delaySpeed={1000}
             />
           </h1>
-          <p className="text-sm lg:text-xl tracking-wider text-white mb-4 md:mb-8 text-center lg:text-left" data-aos="slide-left" data-aos-delay="300">
+          <p className="text-lg lg:text-2xl tracking-wider text-white mb-4 md:mb-8 text-center lg:text-left" data-aos="slide-left" data-aos-delay="300">
             We're glad you're here. Discover amazing products and join our community!
           </p>
-          <button onClick={scrollToSection} className="bg-gradient-to-r from-[#005AB3] via-gray-900 to-black hover:bg-gradient-to-l text-white font-semibold py-2 sm:py-3 px-8 rounded-xl transition duration-300 border-[1px] border-white whitespace-nowrap" data-aos="flip-left" data-aos-delay="300">
+          {/* <button onClick={scrollToSection} className="bg-gradient-to-r from-[#005AB3] via-gray-900 to-black hover:bg-gradient-to-l text-white font-semibold py-2 sm:py-3 px-8 rounded-xl transition duration-300 border-[1px] border-white whitespace-nowrap" data-aos="flip-left" data-aos-delay="300">
             <div className='flex items-center gap-3 font-bold text-xl text-white hover:text-black'>
               <span className='text-lg lg:text-2xl text-white'>Explore Now</span><span className='text-2xl animate-bounce'><FaRegArrowAltCircleDown className='text-orange-400' /></span>
             </div>
-          </button>
+          </button> */}
         </div>
 
         <div className="relative z-10 text-center px-5 w-full lg:w-[60%]" data-aos="slide-left ">
