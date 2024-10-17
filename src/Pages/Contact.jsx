@@ -58,7 +58,7 @@ const Contact = () => {
           <div className='absolute top-0 left-0 w-full h-full flex justify-center items-center p-2 sm:p-4'>
             <div className='w-full h-full flex justify-center items-center border-2 border-blue-600 border-opacity-60 p-4 box-border gap-2 sm:gap-4'>
 
-              <h1 className='text-blue-600 text-2xl sm:text-4xl lg:text-5xl font-bold uppercase tracking-widest pb-1 sm:pb-3 text-border-bottom'>Contact Us</h1>
+              <h1 className='text-blue-600 text-3xl sm:text-4xl lg:text-5xl font-bold uppercase tracking-widest pb-1 sm:pb-3 text-border-bottom'>Contact Us</h1>
             </div>
           </div>
         </div>
