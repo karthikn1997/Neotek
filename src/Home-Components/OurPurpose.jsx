@@ -11,15 +11,15 @@ const OurPurpose = () => {
                     <img
                         src={Bg}
                         alt="Our Purpose"
-                        className="w-[92%] h-full object-cover mx-auto"
+                        className="w-[98%] h-full object-cover mx-auto"
                     />
                 </div>
 
                 {/* Right Side: Content */}
                 <div className="w-full xl:w-1/2 px-6 md:px-8 xl:px-12 p-2">
-                    <div className="mx-auto font-bold text-2xl md:text-3xl mb-4 tracking-wider">
+                    <div className="mx-auto font-bold text-3xl md:text-3xl mb-4 tracking-wider">
                         <h1
-                            className="border-b-2 border-blue-500 pb-2 sm:pb-3 text-blue-500 text-left bg-slate-100 px-0"
+                            className="border-b-2 border-blue-500 pb-2 text-blue-500 text-left bg-slate-100 px-0"
                             style={{ textShadow: "1px 1px 1px black" }}
                         >
                             Our Purpose

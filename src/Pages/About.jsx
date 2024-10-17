@@ -11,6 +11,11 @@ const About = () => {
   const [isLoading, setIsLoading] = useState(true);
   const images = [AboutBg, About1, About2, MissionImg, VisionImg];
 
+  // Scroll to the top of the page when the component is mounted
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   useEffect(() => {
     const handleImageLoad = () => {
       setIsLoading(false);
