@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaHome, FaInfoCircle, FaPhone, FaHeart } from 'react-icons/fa'; // Import icons
 import { LuDiamond } from "react-icons/lu";
 import ImageBG from "../assets/neo-footer.jpg"
+import { IoSettingsSharp } from "react-icons/io5";
 
 
 function Footer() {
@@ -65,7 +66,7 @@ function Footer() {
                                     </Link>
                                 </li>
                                 <li className="flex items-center space-x-2">
-                                    <FaPhone className="text-blue-400" />
+                                    <IoSettingsSharp className="text-blue-400" />
                                     <Link to="/contact" onClick={scrollToTop} className="hover:underline hover:text-blue-300">
                                         Services Page
                                     </Link>
