@@ -16,8 +16,8 @@ const OurPurpose = () => {
                 </div>
 
                 {/* Right Side: Content */}
-                <div className="w-full xl:w-1/2 px-6 md:px-8 xl:px-12 p-2">
-                    <div className="mx-auto font-bold text-3xl md:text-3xl mb-4 tracking-wider">
+                <div className="w-full xl:w-1/2 px-4 xxs:px-6 md:px-8 xl:px-12 p-2">
+                    <div className="mx-auto font-bold text-2xl xxs:text-3xl md:text-3xl mb-4 tracking-wider">
                         <h1
                             className="border-b-2 border-blue-500 pb-2 text-blue-500 text-left bg-slate-100 px-0"
                             style={{ textShadow: "1px 1px 1px black" }}
@@ -25,7 +25,7 @@ const OurPurpose = () => {
                             Our Purpose
                         </h1>
                     </div>
-                    <p className="text-gray-700 text-lg sm:text-xl leading-relaxed mb-4">
+                    <p className="text-gray-700 text-base xxs:text-lg md:text-xl leading-relaxed mb-4">
                         At Neotek Sorting, we are committed to ensuring that food products, such as nuts, rice, wheat, and other essential commodities, meet the highest quality standards. Our purpose is to revolutionize the food sorting industry by implementing advanced sorting technologies that enhance efficiency, reduce waste, and deliver consistent, high-quality products to our customers.
                     </p>
 
@@ -38,10 +38,10 @@ const OurPurpose = () => {
                         />
                     </div>
 
-                    <p className="text-gray-700 text-lg sm:text-xl leading-relaxed mb-4">
+                    <p className="text-gray-700 text-base xxs:text-lg md:text-xl leading-relaxed mb-4">
                         We understand that the quality of food is critical for healthy living, and we are dedicated to making sure that every grain and nut is carefully sorted, ensuring only the best reaches our consumers. With innovation at the heart of our processes, we strive to improve the safety and reliability of the food supply chain.
                     </p>
-                    <p className="text-gray-700 text-lg sm:text-xl leading-relaxed">
+                    <p className="text-gray-700 text-base xxs:text-lg md:text-xl leading-relaxed">
                         Neotek Sorting not only enhances product quality but also empowers producers to optimize their yields and minimize losses. Our focus is on delivering excellence in every batch of food products we process, contributing to a healthier, safer, and more sustainable future for everyone.
                     </p>
                 </div>

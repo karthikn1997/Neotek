@@ -4,7 +4,7 @@ import { FaComments } from 'react-icons/fa'; // Icon for the button
 const ServiceBanner = () => {
     return (
         <div className='w-full min-h-[45vh] bg-[#37689F] flex justify-center items-center'>
-            <div className='bg-[#0B2F58] w-[90%] mx-auto flex flex-col md:flex-row justify-between items-center border rounded-lg p-6 px-10 '>
+            <div className='bg-[#0B2F58] w-[90%] mx-auto flex flex-col md:flex-row justify-between items-center border rounded-lg py-4 xxs:p-6 xxs:px-10 '>
 
                 {/* Left Text Section */}
                 <div className='w-full md:w-[70%] text-center md:text-left p-4 text-3xl md:text-4xl lg:text-5xl font-bold text-white  leading-snug font-sans'>

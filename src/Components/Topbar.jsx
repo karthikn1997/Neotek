@@ -8,12 +8,12 @@ const Topbar = () => {
     return (
         <>
             <div className="w-full flex flex-col fixed z-50 ">
-                <div className="w-full bg-[#0B2F58] text-white md:px-20 text-sm tracking-wider py-2 ">
+                <div className="w-full bg-[#0B2F58] text-white md:px-20 text-xs sm:text-sm tracking-wider py-2">
                     <div className="flex flex-col md:flex-row items-center justify-between ">
 
                         {/* Left Side: Address and Email */}
                         <div className="w-full lg:w-auto flex justify-around lg:justify-evenly md:justify-center items-center gap-6">
-                            <div className="hidden md:flex items-center gap-1 text-[rgb(255,181,36)]">
+                            <div className="hidden md:flex items-center gap-1 text-[rgb(255,181,36)] ">
                                 <MdLocationPin className="text-[#FF7A01] w-4 h-4 rounded-full mt-1" />
                                 <a href="#" className="text-white">
                                     4/79, Rasipuram, Namakkal, Salem - 636301
@@ -25,7 +25,7 @@ const Topbar = () => {
                                     sales@neoteksorting.com
                                 </a>
                             </div>
-                            <div className="flex items-center gap-1 hover:text-[rgb(255,181,36)]">
+                            <div className="flex items-center gap-1 hover:text-[rgb(255,181,36)] ">
                                 <FaSquarePhone className="text-[#FF7A01] w-4 h-4 rounded-full " />
                                 <p className="tracking-wider">9514088115</p>
                             </div>

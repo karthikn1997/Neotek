@@ -106,10 +106,10 @@ const Technologies = () => {
 
 
     return (
-        <div className="w-full min-h-screen py-12 px-4 sm:px-8 lg:px-16 bg-white">
+        <div className="w-full min-h-screen py-8 xxs:py-12 px-4 sm:px-8 lg:px-16 bg-white">
             <div className="max-w-screen-2xl mx-auto">
-                <h1 className="text-2xl sm:text-4xl font-bold text-center mb-8 text-blue-700">14 Core Technologies</h1>
-                <p className="text-lg sm:text-xl text-center text-gray-700 mb-12">
+                <h1 className="text-2xl sm:text-4xl font-bold text-center mb-4 xxs:mb-8 text-blue-700">14 Core Technologies</h1>
+                <p className="text-lg sm:text-xl text-center text-gray-700 mb-6 xxs:mb-12">
                     Discover the cutting-edge technologies that drive innovation at NEOTEK.
                 </p>
 

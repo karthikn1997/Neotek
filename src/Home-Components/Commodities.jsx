@@ -91,9 +91,9 @@ const Commodities = () => {
                             <img
                                 src={commodity.img}
                                 alt={commodity.name}
-                                className="mx-auto w-32 h-32 rounded-[50%] border-2 border-white p-1 object-cover"
+                                className="mx-auto w-28 h-28 xxs:w-32 xxs:h-32 rounded-[50%] border-2 border-white p-1 object-cover"
                             />
-                            <p className="mt-2 text-lg text-white">{commodity.name}</p>
+                            <p className="mt-2 text-base xxs:text-lg text-white">{commodity.name}</p>
                         </div>
                     ))}
                 </Slider>

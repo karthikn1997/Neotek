@@ -14,17 +14,17 @@ const Innovation = () => {
       }, []);
 
     return (
-        <div className='w-full min-h-screen py-14 px-4'>
+        <div className='w-full min-h-screen py-6 xxs:py-14 xxs:px-4'>
             <div className='w-[90%] mx-auto flex flex-col items-center'>
                 <div className='w-full text-left' data-aos="fade-up" data-aos-delay="300">
-                    <h1 className='text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 border-b-2 border-blue-500 pb-2'>
+                    <h1 className='text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 xxs:mb-6 border-b-2 border-blue-500 pb-2'>
                         About <span className='text-blue-600'>Services</span>
                     </h1>
-                    <div className='text-lg lg:text-xl text-gray-900 leading-7 mb-4'>
-                        <p className='mb-4'>
+                    <div className='text-base xxs:text-lg lg:text-xl text-gray-900 leading-7 mb-2 xxs:mb-4'>
+                        <p className='mb-2 xxs:mb-4'>
                             Neotek Sorting Company specializes in advanced sorting solutions for food products such as rice, wheat, lentils (dhall), nuts, and more. Our state-of-the-art sorting technology ensures that food items are processed with the highest level of precision and quality control. By leveraging cutting-edge machinery and AI-driven techniques, we help reduce impurities and ensure that only the finest grains and products make it to the market.
                         </p>
-                        <p className='mb-4'>
+                        <p className='mb-2 xxs:mb-4'>
                             Our sorting machines use advanced optical sensors and AI algorithms to analyze and categorize food products based on size, color, shape, and even subtle defects. This ensures that the final product meets strict industry standards for quality, purity, and safety. Whether it's sorting grains, pulses, or nuts, Neotek ensures maximum yield while minimizing wastage.
                         </p>
                         <p>
@@ -34,7 +34,7 @@ const Innovation = () => {
                 </div>
 
                 {/* Image Row */}
-                <div className='w-full flex flex-col lg:flex-row justify-center items-center mb-10 py-4' data-aos="fade-up" data-aos-delay="300">
+                <div className='w-full flex flex-col lg:flex-row justify-center items-center mb-4 xxs:mb-10 py-4' data-aos="fade-up" data-aos-delay="300">
                     {/* First Image Container */}
                     <div className='w-full lg:w-1/2 relative border-2 border-blue-600 py-4 px-2 border-opacity-50 shadow-lg'>
                         <img
@@ -68,8 +68,8 @@ const Innovation = () => {
                     </div>
                 </div>
 
-                <div className='text-lg lg:text-xl text-gray-900 leading-7 mb-4' data-aos="fade-up" data-aos-delay="300">
-                    <p className='mb-4'>
+                <div className='text-base xxs:text-lg lg:text-xl text-gray-900 leading-7 mb-2 xxs:mb-4' data-aos="fade-up" data-aos-delay="300">
+                    <p className='mb-2 xxs:mb-4'>
                         Neotek is not only focused on efficiency but also on sustainability. By reducing food wastage and ensuring top-quality products, we contribute to a more sustainable food supply chain. Our dedicated team of experts ensures that every batch of sorted products meets the highest standards of hygiene and quality.
                     </p>
                     <p>

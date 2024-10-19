@@ -93,7 +93,7 @@ const Testimonial = () => {
     return (
         <div className="w-full bg-white py-16 px-4 relative">
             <div className="max-w-[1240px] mx-auto text-center mb-8">
-                <h2 className="text-3xl md:text-4xl font-bold text-blue-700 mb-12">What Our Clients Say</h2>
+                <h2 className="text-2xl xxs:text-3xl md:text-4xl font-bold text-blue-700 mb-12">What Our Clients Say</h2>
                 <Slider {...settings}>
                     {testimonials.map((testimonial, index) => (
                         <div key={index} className="px-4 mb-8">

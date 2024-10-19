@@ -22,7 +22,7 @@ const Navbar = () => {
                             />
                         </div>
                         <div className="hidden md:block font-semibold">
-                            <div className="ml-10 flex items-baseline space-x-8 text-lg ">
+                            <div className="ml-10 flex items-baseline space-x-8 text-base sm:text-lg ">
                                 <NavLink
                                     to="/"
                                     className={({ isActive }) =>
@@ -129,7 +129,7 @@ const Navbar = () => {
 
             {isOpen && (
                 <div className="w-full md:hidden bg-gray-200 flex flex-col justify-center items-center ">
-                    <div className="w-full flex flex-col text-[16px] font-semibold text-left tracking-wider">
+                    <div className="w-full flex flex-col text-[16px] font-semibold text-left tracking-wider text-base sm:text-lg">
                         <NavLink
                             to="/"
                             className={({ isActive }) =>
